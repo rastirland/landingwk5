@@ -10,7 +10,7 @@ h3 {
 }
 header {
     width:100%;
-    height:200px;
+    height:100px;
     float:left;
     background-color:rgb(114, 102, 153);
     color: black;
@@ -20,17 +20,18 @@ header {
     font-family: "Alfa Slab One", cursive;
 }
 .leftColumn {
-    width:50%;
+    width:20%;
     height: 700px;
     float:left;
-    background-color:white;
+    background-color:rgb(39, 38, 38);
   
 }
 .rightColumn {
-    width:50%;
+    width:80%;
     height: 700px;
     float:right;
-    background-color:white;
+    background-color:grey;
+    
 }
     h1 {
         font-family: 'Lobster', cursive;
@@ -59,6 +60,10 @@ img {
     border-style: none;
     border-radius: 100%;
     filter: grayscale(0);
+    text-align-last: center;
+}
+.centeralign{
+    text-align: center;
 }
 .container:hover{
     filter: blur(5px);
