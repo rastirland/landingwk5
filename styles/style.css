@@ -10,9 +10,9 @@ h3 {
 }
 header {
     width:100%;
-    height:100px;
+    height:50px;
     float:left;
-    background-color:rgb(114, 102, 153);
+    background-color: 707070;
     color: black;
 }
 .centre {
@@ -21,16 +21,16 @@ header {
 }
 .leftColumn {
     width:20%;
-    height: 700px;
+    height: 600px;
     float:left;
-    background-color:rgb(39, 38, 38);
+    background-color: 707070;
   
 }
 .rightColumn {
     width:80%;
-    height: 700px;
+    height: 600px;
     float:right;
-    background-color:grey;
+    background-color: B1B1B1;
     
 }
     h1 {
@@ -49,11 +49,11 @@ header {
 footer
 {
 margin-bottom:0;
-color: white;
+color: 707070;
 width: 100%;
-height: 200px;
+height: 100px;
 float: left;
-background-color: purple;
+background-color: 707070;
 text-align: center;
 }
 img {
