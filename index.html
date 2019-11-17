@@ -5,7 +5,7 @@
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <title>My Page</title>
+      <title>Portfolio</title>
       <link href="styles/style.css" rel="stylesheet" type="text/css">
       <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lobster&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
@@ -27,12 +27,70 @@
         </h3>
       </article>
       <article class="rightColumn">
-        <div class="centeralign"> 
-            <h1>James Young</h1>
+            <h3><strong>A little about me...</strong></h3>
             <br>
+            <HR>
+              <BR>
             <div class="container">
-             <span> <img src="images/self.jpg" alt="profile-pic"></span>
+                <div>
+                    <div class="carousel">
+                        <ul class="slides">
+                            <input type="radio" name="radio-buttons" id="img-1" checked />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="images/s4.PNG">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-3" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-2" class="next-slide">
+                                      <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-2" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="images/s3.PNG">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-1" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-3" class="next-slide">
+                                        <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-3" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="images/s2.PNG">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-2" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-1" class="next-slide">
+                                        <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <div class="carousel-dots">
+                                <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                                <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                                <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                
              </div>
+             <br>
+             <hr>
+             <p><h3>Hi, my name is James. I'm currently studying at Northampton University and hopefully achieve a
+                Bachelor's Degree in computer science by the year 2021. My family are my world and here is a few pictures of us.</h3></p> 
              <br>
              <p>    
                 <a href="http://www.github.com" target="_blank"><i class="fab fa-github fa-2x"></i></a>  
@@ -40,15 +98,14 @@
                 <a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>    
                 <a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-2x" ></i></a>
               </p>
-
-        </div>
+              
       </article></div>
      
   
 
       
       <footer class="footer">
-          <h3>footer</h3>
+        &copy; Copyright James young
       </footer>
     </div>
   </body>
